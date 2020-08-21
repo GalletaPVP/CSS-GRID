@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabla{
+    border: 1px solid black; 
+    align-items: center;
+    font-size: 12px;
+}
+
+.tabla-preguntas{
+    width: 1145px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background:#d3d3d3;
+}
+
+.tabla-preguntas h1{
+    margin-right: 150px;
+}
+
+.preguntas{
+    display: flex;
+    margin-left: 50px;
+}
+
+.preguntas img{
+    margin-right: 5px;
+    margin-top: 2.5px;
+    width: 30px;
+    height: 30px;
+}
+
+.preguntas p{
+    margin-right: 15px;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.columna1{
+    margin-left: 150px;
+}
+
+.columna2{
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+.columna1 img{
+    height: 425px;
+    margin-top: 10px;
+}
+
+.columna2 h2{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 12px;
+    background: #cb3234;
+    text-align: center;
+    color: white;
+}
+
+#diferente{
+    width: 500px;
+    margin-left: 50px;
+}
+
+.botono{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    background: #d3d3d3;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.botono p{
+    line-height: 50px;
+}
+
+.colorido{
+    color: red;
+}
+
+.columna2 img{
+    margin-left: 50px;
+}
+
+.final{
+    background-color:  #cb3234;
+    height: 65px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.segundo{
+    margin-left: 295px;
+}
+
+.primero img{
+    width: 200px;
+    margin-left: 10px;
+}
+
+.segundo img{
+    margin-left: 10px;
+}
+
